@@ -13,7 +13,7 @@ public class Customer {
         this.phoneNumber = "";
     }
 
-    public Customer(String customerId, String name, String email, String phoneNumber) {
+    public Customer() {
         this.customerId = "";
         this.name = "";
         this.email = "";
