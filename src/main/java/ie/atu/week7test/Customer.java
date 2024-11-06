@@ -13,11 +13,11 @@ public class Customer {
         this.phoneNumber = "";
     }
 
-    public Customer() {
-        this.customerId = "";
-        this.name = "";
-        this.email = "";
-        this.phoneNumber = "";
+    public Customer(String CustomerId, String Name, String Email, String phoneNumber) {
+        this.customerId = CustomerId;
+        this.name = Name;
+        this.email = Email;
+        this.phoneNumber = phoneNumber;
     }
 
     public void setCustomerId() {

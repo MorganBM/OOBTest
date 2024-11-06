@@ -12,7 +12,7 @@ public class CustomerManagementAPP {
 
             // customerlist.add("")
             System.out.println("" + details1);
-        } catch(CannotResolveConstructor crc){
+        } catch(NumberFormatException nfe){
             System.out.println("Error");
         }
     }
